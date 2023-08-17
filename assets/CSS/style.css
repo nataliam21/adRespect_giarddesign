@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 
-.container-fluid {
+.container-fluid#nav {
   width: 1262px;
   height: 72px;
 }
@@ -47,7 +47,6 @@ ul {
   border: none;
   background: none;
   cursor: pointer;
-
   font-size: 20px;
 }
 
@@ -80,7 +79,7 @@ ul {
 }
 
 .search-input {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 25px;
@@ -89,4 +88,43 @@ ul {
 .search-box.active,
 .search-overlay.active {
   display: block;
+}
+
+.background-column {
+  background-color: #dcc1ab;
+  padding: 20px;
+  height: 737px;
+}
+
+.image-column {
+  height: 737px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  background-color: #dcc1ab;
+}
+
+.text-block {
+  width: 599px;
+  height: 326px;
+  margin-left: 64px;
+}
+.headline {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  margin-top: 144.5px;
+  margin-left: 89px;
+}
+.headline-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 44px;
+  text-align: left;
+  margin-left: 89px;
 }
