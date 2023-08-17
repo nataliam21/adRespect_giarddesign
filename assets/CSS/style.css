@@ -217,4 +217,65 @@ ul {
 #offer {
   margin-top: 120px;
   margin-bottom: 96px;
+  background: var(--grey, #f5f0ec);
+}
+.card {
+  display: flex;
+  width: 394px;
+  height: 354px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 28px;
+  background: var(--white, #fff);
+}
+.card-body {
+  width: 274px;
+  height: 298px;
+  padding: 48px 40px 48px 40px;
+}
+
+#Icon_card {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.card-tite {
+  color: var(--black, #111);
+  /* Montserrat/H-3 */
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%; /* 32.2px */
+  letter-spacing: -1.4px;
+  align-self: stretch;
+  padding-top: 32px;
+}
+.card-text {
+  color: var(--black, #111);
+  /* Inter/Body-small */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.14px;
+  align-self: stretch;
+  width: 298px;
+  height: 63px;
+  padding-top: 12px;
+}
+.button_card {
+  display: flex;
+  padding-top: 63px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  align-items: center;
+  border-bottom: 1px solid var(--green, #1b5b31);
+}
+#button_icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--green, #1b5b31);
 }
