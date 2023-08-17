@@ -118,20 +118,121 @@
     </header>
     <section id="intro">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 background-column">
-            <div class="text-block">
-              <p class="headline">Nowoczesna aranżacja <br />Twojego ogrodu</p>
-              <p class="headline-text">
-                Marka GiardDesign to wieloletnie doświadczenie i wysoka <br />
-                estetyka realizacji. Oferujemy kompleksowy zakres usług <br />
-                z indywidualnym podejściem do każdego projektu.
-              </p>
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              class="active"
+              type="button"
+              data-bs-target="carouselExample"
+              data-bs-slide-to="0"
+              aria-current="true"
+              aria-label="Slajd 1"
+            ></button>
+            <button
+              class="active"
+              type="button"
+              data-bs-target="carouselExample"
+              data-bs-slide-to="1"
+              aria-current="true"
+              aria-label="Slajd 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-6 background-column">
+                  <div class="text-block">
+                    <p class="headline">
+                      Nowoczesna aranżacja <br />Twojego ogrodu
+                    </p>
+                    <p class="headline-text">
+                      Marka GiardDesign to wieloletnie doświadczenie i wysoka
+                      <br />
+                      estetyka realizacji. Oferujemy kompleksowy zakres usług
+                      <br />
+                      z indywidualnym podejściem do każdego projektu.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 image-column">
+                  <img class="img-fluid" src="assets/img/Photo1.png" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6 background-column">
+                  <div class="text-block">
+                    <p class="headline">
+                      Nowoczesna aranżacja <br />Twojego ogrodu
+                    </p>
+                    <p class="headline-text">
+                      Marka GiardDesign to wieloletnie doświadczenie i wysoka
+                      <br />
+                      estetyka realizacji. Oferujemy kompleksowy zakres usług
+                      <br />
+                      z indywidualnym podejściem do każdego projektu.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 image-column">
+                  <img class="img-fluid" src="assets/img/Photo1.png" />
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-6 image-column">
-            <img class="img-fluid" src="assets/img/Photo.png" />
-          </div>
+          <a
+            href="#"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+            class="carousel-control-prev"
+          >
+            <span
+              id="right-arrow"
+              class="carousel-control-prev d-flex align-items-end navigation-arrow"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="27"
+                height="24"
+                viewBox="0 0 27 24"
+                fill="none"
+              >
+                <path
+                  d="M0.795115 10.9393C0.209328 11.5251 0.209328 12.4749 0.795114 13.0607L10.3411 22.6066C10.9268 23.1924 11.8766 23.1924 12.4624 22.6066C13.0482 22.0208 13.0482 21.0711 12.4624 20.4853L3.97709 12L12.4624 3.51472C13.0482 2.92893 13.0482 1.97918 12.4624 1.3934C11.8766 0.80761 10.9268 0.80761 10.3411 1.3934L0.795115 10.9393ZM26.1442 10.5L1.85577 10.5L1.85577 13.5L26.1442 13.5L26.1442 10.5Z"
+                  fill="black"
+                />
+              </svg>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            href="#"
+            class="carousel-control-next"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span
+              id="left-arrow"
+              class="carousel-control-next d-flex align-items-end navigation-arrow"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="27"
+                height="24"
+                viewBox="0 0 27 24"
+                fill="none"
+              >
+                <path
+                  d="M26.2049 13.0607C26.7907 12.4749 26.7907 11.5251 26.2049 10.9393L16.6589 1.3934C16.0732 0.807611 15.1234 0.807611 14.5376 1.3934C13.9518 1.97919 13.9518 2.92893 14.5376 3.51472L23.0229 12L14.5376 20.4853C13.9518 21.0711 13.9518 22.0208 14.5376 22.6066C15.1234 23.1924 16.0732 23.1924 16.6589 22.6066L26.2049 13.0607ZM0.855774 13.5H25.1442V10.5H0.855774V13.5Z"
+                  fill="black"
+                />
+              </svg>
+            </span>
+            <span class="visually-hidden">Next</span>
+          </a>
         </div>
       </div>
     </section>

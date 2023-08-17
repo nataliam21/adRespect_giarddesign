@@ -104,7 +104,10 @@ ul {
   position: relative;
   background-color: #dcc1ab;
 }
-
+.img-fluid {
+  width: 688px;
+  height: 737px;
+}
 .text-block {
   width: 599px;
   height: 326px;
@@ -127,4 +130,9 @@ ul {
   margin-top: 44px;
   text-align: left;
   margin-left: 89px;
+}
+
+.navigation-arrow {
+  width: 24.288px;
+  margin: 24px;
 }
