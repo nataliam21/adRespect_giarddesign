@@ -1,6 +1,7 @@
 body {
   font-family: "Inter";
   color: black;
+  background: var(--grey, #f5f0ec);
 }
 a {
   text-decoration: none;
@@ -31,52 +32,6 @@ ul {
 .dropdown-menu {
   font-size: 14px;
   border: none;
-}
-#button-contact {
-  color: var(--grey, #f5f0ec);
-  text-align: center;
-  font-family: Inter;
-  margin-top: 72px;
-  margin-left: 75px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  border-radius: 200px;
-  background: var(--green, #1b5b31);
-  width: 208px;
-  height: 50px;
-  cursor: pointer;
-}
-
-#button-contact:hover {
-  background-color: #dcc1ab;
-  border: 1px solid #1b5b31;
-  color: #1b5b31;
-}
-
-#button-show,
-#arrow-button {
-  color: #1b5b31;
-  text-align: center;
-  font-family: "Inter";
-  margin-top: 72px;
-  margin-left: 36px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  border-radius: 200px;
-  background-color: #dcc1ab;
-  border: 1px solid #1b5b31;
-  width: 249px;
-  height: 50px;
-  cursor: pointer;
-}
-
-#button-show:hover {
-  background-color: #1b5b31;
-  color: var(--grey, #f5f0ec);
 }
 
 .search-container {
@@ -110,7 +65,6 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
 
@@ -127,7 +81,6 @@ ul {
 .search-input {
   width: 95%;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 25px;
 }
 
@@ -138,8 +91,6 @@ ul {
 
 .background-column {
   background-color: #dcc1ab;
-  padding: 20px;
-  height: 737px;
 }
 
 .image-column {
@@ -150,42 +101,79 @@ ul {
   position: relative;
   background-color: #dcc1ab;
 }
-.img-fluid {
+
+.img_intro {
   width: 688px;
   height: 737px;
+  display: flex;
 }
-.text-block {
-  width: 599px;
-  height: 448px;
-  margin-left: 64px;
-}
-.headline {
+
+.header_intro {
   font-family: "Montserrat";
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
   line-height: 70px;
   margin-top: 144.5px;
-  margin-left: 89px;
+  align-self: stretch;
 }
-.headline-text {
+.text_intro {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   margin-top: 44px;
-  text-align: left;
-  margin-left: 89px;
 }
-
 .navigation-arrow {
   width: 24.288px;
   margin: 24px;
 }
+#button-contact {
+  color: var(--grey, #f5f0ec);
+  text-align: center;
+  font-family: "Inter";
+  margin-top: 72px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 200px;
+  background: var(--green, #1b5b31);
+  width: 208px;
+  height: 50px;
+  cursor: pointer;
+}
 
-#navi-smal {
+#button-contact:hover {
+}
+
+#button-show,
+#arrow-button {
+  color: #1b5b31;
+  text-align: center;
+  font-family: "Inter";
+  margin-top: 72px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 200px;
+  background-color: #dcc1ab;
+  border: 1px solid #1b5b31;
+  width: 249px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#button-show:hover {
+}
+#offer {
+  margin-top: 120px;
+  margin-bottom: 96px;
+}
+#navi-small {
   color: var(--green, #1b5b31);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -214,91 +202,75 @@ ul {
   color: var(--black, #111);
 }
 
-#offer {
-  margin-top: 120px;
-  margin-bottom: 96px;
-  background: var(--grey, #f5f0ec);
-}
 .card {
-  display: flex;
-  width: 394px;
-  height: 354px;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
   border-radius: 28px;
-  background: var(--white, #fff);
-  margin-top: 96px;
-  margin-bottom: 160;
-  margin-right: 64px;
-}
-.card-body {
-  width: 274px;
-  height: 298px;
-  padding: 48px 40px 48px 40px;
+  -webkit-box-shadow: 0px 0px 19px 3px rgba(196, 197, 198, 1);
+  -moz-box-shadow: 0px 0px 19px 3px rgba(196, 197, 198, 1);
+  box-shadow: 0px 0px 19px 3px rgba(196, 197, 198, 1);
 }
 
+.card-body {
+  padding: 48px 40px 48px 40px;
+}
 #Icon_card_1 {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
+  margin-bottom: 32px;
 }
 #Icon_card_2 {
   width: 48px;
   height: 29px;
+  margin-bottom: 43px;
   flex-shrink: 0;
 }
 #Icon_card_3 {
   width: 44px;
   height: 44px;
   flex-shrink: 0;
+  margin-bottom: 28px;
 }
 .card-tite {
   color: var(--black, #111);
-  /* Montserrat/H-3 */
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 115%; /* 32.2px */
+  line-height: 115%;
   letter-spacing: -1.4px;
-  align-self: stretch;
-  padding-top: 32px;
 }
 .card-text {
   color: var(--black, #111);
-  /* Inter/Body-small */
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
   letter-spacing: -0.14px;
-  align-self: stretch;
-  width: 298px;
-  height: 63px;
   padding-top: 12px;
+  align-self: stretch;
 }
+
 .button_card {
   display: flex;
   padding-bottom: 0px;
-  width: 171px;
-  height: 28px;
   align-items: center;
   padding-top: 63px;
   position: relative;
   cursor: pointer;
+  padding-bottom: 4px;
   border-bottom: 1px solid var(--green, #1b5b31);
+  width: 171px;
 }
 .button_text {
   color: var(--green, #1b5b31);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
-  padding-bottom: 30px;
+  line-height: 150%;
 }
+
 .button_card svg {
   fill: var(--green, #1b5b31);
   margin-left: 10px;
@@ -312,15 +284,11 @@ ul {
 .button_card_3 {
   display: flex;
   padding-bottom: 0px;
-  width: 207px;
-  height: 28px;
   align-items: center;
   padding-top: 63px;
   position: relative;
   cursor: pointer;
+  padding-bottom: 4px;
   border-bottom: 1px solid var(--green, #1b5b31);
-}
-
-.button_card_3 :hover {
-  color: var(--green, #1b5b31);
+  width: 207px;
 }
