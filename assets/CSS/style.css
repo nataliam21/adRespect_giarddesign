@@ -96,16 +96,6 @@ ul {
 
 .image-column {
   height: 737px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  position: relative;
-}
-
-.img_intro {
-  width: 688px;
-  height: 737px;
-  display: flex;
 }
 
 .header_intro {
@@ -294,6 +284,8 @@ ul {
 
 .img_company {
   gap: 64px;
+  margin: 0;
+  padding: 0;
 }
 
 .about_company {
@@ -329,4 +321,25 @@ ul {
   line-height: 150%; /* 24px */
   letter-spacing: -0.16px;
   color: var(--grey, #f5f0ec);
+}
+
+#realizations navi-small {
+  color: black;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  letter-spacing: -0.12px;
+}
+
+.realizations {
+  width: 100%;
+  background-color: #dcc1ab;
+  color: white;
+}
+
+#button-company {
+  color: #f5f0ec;
+  border-radius: 200px;
 }
