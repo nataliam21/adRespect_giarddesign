@@ -17,10 +17,10 @@ let macy = Macy({
   margin: 20,
   columns: 3,
   breakAt: {
-    1200: 3,
-    940: 2,
-    520: 2,
-    400: 2,
+    1140: 3,
+    960: 3,
+    720: 2,
+    540: 2,
   },
 });
 
@@ -28,3 +28,16 @@ let macy = Macy({
 // resizeDuration: 200,
 //  wrapAround: true,
 //});
+
+const expandButton = document.getElementById("button_realizations");
+const macyContainer = document.getElementById("photo_gallery");
+const gradientOverlay = document.querySelector(".gradient-overlay");
+const expandContainer = document.querySelector(".expand-container");
+
+function handleExpandClick() {
+  gradientOverlay.style.display = "none";
+  expandButton.removeEventListener("click", handleExpandClick);
+  expandContainer.classList.add("expanded");
+  macy.recalculate(true);
+}
+expandButton.addEventListener("click", handleExpandClick);

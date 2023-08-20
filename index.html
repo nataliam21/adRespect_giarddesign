@@ -533,7 +533,7 @@
           </div>
         </div>
       </div>
-      <!-- Po dodanie lightboxa do zainicjiowania popupu, zmienia się ukła utworzony z Macy
+      <!-- Po dodanie lightboxa do zainicjiowania popupu, zmienia się układ utworzony z Macy
 
       <div id="photo_gallery" class="macy-container mt-5">
         <div class="macy-item">
@@ -588,42 +588,48 @@
         </div>
       </div>-->
 
-      <div class="macy-container mt-5">
-        <img src="assets/img/gallery/photo_1.png" alt="" />
-        <img src="assets/img/gallery/photo_2.png" alt="" />
-        <img src="assets/img/gallery/photo_3.png" alt="" />
-        <img src="assets/img/gallery/photo_4.png" alt="" />
-        <img src="assets/img/gallery/photo_5.png" alt="" />
-        <img src="assets/img/gallery/photo_6.png" alt="" />
-        <img src="assets/img/gallery/photo_7.png" alt="" />
-        <img src="assets/img/gallery/photo_8.png" alt="" />
-        <img src="assets/img/gallery/photo_9.png" alt="" />
-        <img src="assets/img/gallery/photo_10.png" alt="" />
-      </div>
-      <div class="container">
-        <div>
-          <div class="row justify-content-center">
-            <a
-              class="col-2 btn border border-dark mt-lg-5 mt-md-4 mt-ms-3 p-lg-3 ps-lg-3 pe-lg-3 mb-5"
-              href="#"
-              id="button_realizations"
-              role="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseElement"
-              >Rozwiń
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="17"
-                viewBox="0 0 16 17"
-                fill="none"
-              >
-                <path
-                  d="M16 8.49529L15.1043 7.59959L8.63642 14.0769L8.63642 0.5L7.36358 0.5L7.36358 14.0675L0.895699 7.59959L9.54553e-08 8.49529L8.00471 16.5L16 8.49529Z"
-                  fill="#111111"
-                />
-              </svg>
-            </a>
+      <div class="expand-container">
+        <div class="gradient-overlay"></div>
+        <div id="photo_gallery" class="macy-container mt-5">
+          <img src="assets/img/gallery/photo_1.png" alt="" />
+          <img src="assets/img/gallery/photo_2.png" alt="" />
+          <img src="assets/img/gallery/photo_3.png" alt="" />
+          <img src="assets/img/gallery/photo_4.png" alt="" />
+          <img src="assets/img/gallery/photo_5.png" alt="" />
+          <img src="assets/img/gallery/photo_6.png" alt="" />
+          <img src="assets/img/gallery/photo_7.png" alt="" />
+          <img src="assets/img/gallery/photo_8.png" alt="" />
+          <img src="assets/img/gallery/photo_9.png" alt="" />
+          <img src="assets/img/gallery/photo_10.png" alt="" />
+          <img src="assets/img/gallery/Photo_11.png" alt="" />
+          <img src="assets/img/gallery/Photo_12.png" alt="" />
+          <img src="assets/img/gallery/photo_13.png" alt="" />
+        </div>
+        <div class="container">
+          <div>
+            <div class="row justify-content-center">
+              <a
+                class="col-2 btn border border-dark mt-lg-5 mt-md-4 mt-ms-3 p-lg-3 ps-lg-3 pe-lg-3 mb-5"
+                href="#"
+                id="button_realizations"
+                role="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseElement"
+                >Rozwiń
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                >
+                  <path
+                    d="M16 8.49529L15.1043 7.59959L8.63642 14.0769L8.63642 0.5L7.36358 0.5L7.36358 14.0675L0.895699 7.59959L9.54553e-08 8.49529L8.00471 16.5L16 8.49529Z"
+                    fill="#111111"
+                  />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -657,18 +663,16 @@
     <section id="footer">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-lg-7 col-ms-2 k mt-5 pt-lg-3 ps-0 pe-0">
+          <div class="col-lg-7 col-ms-2 k mt-5 pt-lg-3">
             <a href="#" class="">
               <img id="logo" src="assets/img/giarddesign_white.png" />
             </a>
           </div>
-          <div
-            class="col-lg-3 col-ms-2 mt-lg-5 mt-md-3 text-end pt-lg-3 ps-0 pe-0"
-          >
+          <div class="col-lg-3 col-ms-2 mt-lg-5 mt-md-3 text-end pt-lg-3">
             <p>Daj znać, co możemy dla Ciebie zrobić!</p>
           </div>
           <div
-            class="col-lg-2 col-ms-2 mt-lg-5 text-end p-lg-0 pt-lg-1 pt-ms-3 ps-0 pe-0"
+            class="col-lg-2 col-ms-2 mt-lg-5 text-end p-lg-0 pt-lg-1 pt-ms-3"
           >
             <button id="button-footer" class="btn btn-outline" type="button">
               Skontaktuj się z nami
@@ -679,43 +683,37 @@
           <div class="separator"></div>
         </div>
         <div class="row mb-5">
-          <div
-            class="col-lg-1 col-md-3 mt-lg-5 mt-md-5 pt-3 text-start pe-0 ps-0"
-          >
+          <div class="col-lg-1 col-md-3 mt-lg-5 mt-md-5 pt-3 text-start">
             <a href="#" class="font-footer" id="">Kontakt</a>
           </div>
           <div
-            class="col-lg-1 col-md-3 ms-test-center mt-md-5 mt-lg-5 pt-3 text-start pe-0 ps-0"
+            class="col-lg-1 col-md-3 ms-test-center mt-md-5 mt-lg-5 pt-3 text-start"
           >
             <a href="#" class="font-footer" id="">Instagram</a>
           </div>
-          <div
-            class="col-lg-1 col-md-3 mt-lg-5 mt-md-5 pt-3 text-start pe-0 ps-0"
-          >
+          <div class="col-lg-1 col-md-3 mt-lg-5 mt-md-5 pt-3 text-start">
             <a href="#" class="font-footer" id="">Facebook</a>
           </div>
-          <div
-            class="col-lg-1 col-md-3 mt-lg-5 mt-md-5 pt-3 text-start pe-0 ps-0"
-          >
+          <div class="col-lg-1 col-md-3 mt-lg-5 mt-md-5 pt-3 text-start">
             <a href="#" class="font-footer" id="">Linkedin</a>
           </div>
-          <div class="col-lg-6 mt-5 pt-3 text-end ps-0 pe-0">
+          <div class="col-lg-6 mt-5 pt-3 text-end">
             <a href="tel:000-000-000" class="font-footer" id="">000-000-000</a>
           </div>
-          <div class="col-lg-2 mt-lg-5 pt-3 text-end ps-0 pe-0">
+          <div class="col-lg-2 mt-lg-5 pt-3 text-end">
             <a href="mailto:giarddesign@kontakt.pl" class="font-footer" id=""
               >giarddesign@kontakt.pl</a
             >
           </div>
         </div>
         <div class="row pb-5">
-          <div class="col-lg-9 col-ms-1 mt-5 pt-3 ps-0 pe-0">
+          <div class="col-lg-9 col-ms-1 mt-5 pt-3">
             <p>Prawa zastrzeżone © 2022</p>
           </div>
-          <div class="col-lg-2 col-md-9 col-9 mt-lg-5 text-end pt-3 ps-0 pe-2">
+          <div class="col-lg-2 col-md-9 col-9 mt-lg-5 text-end pt-3">
             <p>made by</p>
           </div>
-          <div class="col-lg-1 col-md-3 col-3 mt-lg-5 pt-3 text-end ps-0 pe-0">
+          <div class="col-lg-1 col-md-3 col-3 mt-lg-5 pt-3 text-end">
             <a href="#" class="">
               <img id="logo" src="assets/img/logo_adRespect.png" />
             </a>
