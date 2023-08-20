@@ -10,12 +10,12 @@ $(document).ready(function () {
   });
 });
 
-var macy = Macy({
-  container: ".macy-container", // Klasa kontenera elementów siatki
-  trueOrder: true, // Zachowanie kolejności elementów
-  waitForImages: false, // Czekanie na załadowanie obrazów
-  margin: 43, // Margines między elementami
-  columns: 3, // Ilość kolumn w siatce
+let macy = Macy({
+  container: ".macy-container",
+  trueOrder: true,
+  waitForImages: false,
+  margin: 20,
+  columns: 3,
   breakAt: {
     1200: 3,
     940: 3,
@@ -23,3 +23,8 @@ var macy = Macy({
     400: 2,
   },
 });
+
+//lightbox.option({
+// resizeDuration: 200,
+//  wrapAround: true,
+//});

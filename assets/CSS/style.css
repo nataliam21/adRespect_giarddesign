@@ -343,3 +343,38 @@ ul {
   color: #f5f0ec;
   border-radius: 200px;
 }
+.macy-container :hover {
+  filter: brightness(65%);
+}
+#button_realizations {
+  color: black;
+  border-radius: 200px;
+}
+
+#button-realizations {
+  background: var(--grey, #f5f0ec);
+  border-radius: 200px;
+  padding: 10px 24px 12px 24px;
+}
+.background-realization {
+  background: #1b5b31;
+}
+.header-realizations {
+  color: var(--grey, #f5f0ec);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 48px */
+  letter-spacing: -2px;
+}
+#navi-small_realizations {
+  color: var(--grey, #f5f0ec);
+  /* Inter/Body */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.16px;
+}
