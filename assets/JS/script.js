@@ -18,7 +18,7 @@ let macy = Macy({
   columns: 3,
   breakAt: {
     1200: 3,
-    940: 3,
+    940: 2,
     520: 2,
     400: 2,
   },
