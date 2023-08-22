@@ -11,10 +11,11 @@ ul {
   list-style: none;
 }
 
-.container-fluid#nav {
-  width: 1262px;
-  height: 72px;
+.navigation {
+  width: 100%;
+  background-color: white;
 }
+
 #logo {
   width: 114.368px;
   height: 19px;
@@ -32,6 +33,45 @@ ul {
 .dropdown-menu {
   font-size: 14px;
   border: none;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: width 0.3s ease-in-out;
+  width: 200px;
+}
+
+.search-button {
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.search-input:focus {
+  width: 300px;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
 }
 
 .search-container {
@@ -355,7 +395,7 @@ ul {
   z-index: 2;
 }
 
-#button-realizations {
+#button_instagram {
   background: var(--grey, #f5f0ec);
   border-radius: 200px;
   padding: 10px 24px 12px 24px;
